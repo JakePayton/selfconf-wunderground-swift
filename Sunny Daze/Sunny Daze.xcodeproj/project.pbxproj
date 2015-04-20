@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C5F68091F578C69A87F5D8 /* Pods_Sunny_DazeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C849C8FBF6481C86F613583 /* Pods_Sunny_DazeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C710D6FC87A0BF2CD2BEDD36 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32626A48FBB8B69AD481D1C7 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E213D81D1AE59613006A7933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213D81C1AE59613006A7933 /* AppDelegate.swift */; };
 		E213D81F1AE59613006A7933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213D81E1AE59613006A7933 /* ViewController.swift */; };
 		E213D8221AE59613006A7933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E213D8201AE59613006A7933 /* Main.storyboard */; };
@@ -26,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0373BD36D0943CDE94EE5F8F /* Pods-Sunny DazeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunny DazeTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Sunny DazeTests/Pods-Sunny DazeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32626A48FBB8B69AD481D1C7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C849C8FBF6481C86F613583 /* Pods_Sunny_DazeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunny_DazeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66786CFBBDE0B71B0334DC1C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A2492FDD7EAF857748379B04 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		ACBDDD39D621D23EC5C18BDA /* Pods-Sunny DazeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunny DazeTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Sunny DazeTests/Pods-Sunny DazeTests.release.xcconfig"; sourceTree = "<group>"; };
 		E213D8171AE59613006A7933 /* Sunny Daze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunny Daze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E213D81B1AE59613006A7933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E213D81C1AE59613006A7933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C710D6FC87A0BF2CD2BEDD36 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C5F68091F578C69A87F5D8 /* Pods_Sunny_DazeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15822A349276079E5C682135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32626A48FBB8B69AD481D1C7 /* Pods.framework */,
+				4C849C8FBF6481C86F613583 /* Pods_Sunny_DazeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E213D80E1AE59613006A7933 = {
 			isa = PBXGroup;
 			children = (
 				E213D8191AE59613006A7933 /* Sunny Daze */,
 				E213D82F1AE59613006A7933 /* Sunny DazeTests */,
 				E213D8181AE59613006A7933 /* Products */,
+				F4D409AE7B0899B1FF4A40E5 /* Pods */,
+				15822A349276079E5C682135 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +133,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F4D409AE7B0899B1FF4A40E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66786CFBBDE0B71B0334DC1C /* Pods.debug.xcconfig */,
+				A2492FDD7EAF857748379B04 /* Pods.release.xcconfig */,
+				0373BD36D0943CDE94EE5F8F /* Pods-Sunny DazeTests.debug.xcconfig */,
+				ACBDDD39D621D23EC5C18BDA /* Pods-Sunny DazeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E213D8361AE59613006A7933 /* Build configuration list for PBXNativeTarget "Sunny Daze" */;
 			buildPhases = (
+				B0F4ABABD498E641EFCDE8BE /* Check Pods Manifest.lock */,
 				E213D8131AE59613006A7933 /* Sources */,
 				E213D8141AE59613006A7933 /* Frameworks */,
 				E213D8151AE59613006A7933 /* Resources */,
+				05B202E8B7AB699808CA25C8 /* Embed Pods Frameworks */,
+				636F815E3442355B859315A9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E213D8391AE59613006A7933 /* Build configuration list for PBXNativeTarget "Sunny DazeTests" */;
 			buildPhases = (
+				B826971CCBA7181FE35E8572 /* Check Pods Manifest.lock */,
 				E213D8281AE59613006A7933 /* Sources */,
 				E213D8291AE59613006A7933 /* Frameworks */,
 				E213D82A1AE59613006A7933 /* Resources */,
+				BFA2D606C9ECF649DA870120 /* Embed Pods Frameworks */,
+				41AF927ED7B699B09BC6F7EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +245,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B202E8B7AB699808CA25C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AF927ED7B699B09BC6F7EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Sunny DazeTests/Pods-Sunny DazeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636F815E3442355B859315A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F4ABABD498E641EFCDE8BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B826971CCBA7181FE35E8572 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA2D606C9ECF649DA870120 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Sunny DazeTests/Pods-Sunny DazeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E213D8131AE59613006A7933 /* Sources */ = {
@@ -337,6 +468,7 @@
 		};
 		E213D8371AE59613006A7933 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66786CFBBDE0B71B0334DC1C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -348,6 +480,7 @@
 		};
 		E213D8381AE59613006A7933 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2492FDD7EAF857748379B04 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -359,6 +492,7 @@
 		};
 		E213D83A1AE59613006A7933 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0373BD36D0943CDE94EE5F8F /* Pods-Sunny DazeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -378,6 +512,7 @@
 		};
 		E213D83B1AE59613006A7933 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBDDD39D621D23EC5C18BDA /* Pods-Sunny DazeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -410,6 +545,7 @@
 				E213D8381AE59613006A7933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E213D8391AE59613006A7933 /* Build configuration list for PBXNativeTarget "Sunny DazeTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +554,7 @@
 				E213D83B1AE59613006A7933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
